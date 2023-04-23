@@ -1,0 +1,5 @@
+C:\Users\Xasay Musayev\Desktop\CustomList\CustomList\obj\Debug\net6.0\CustomList.csproj.AssemblyReference.cache
+C:\Users\Xasay Musayev\Desktop\CustomList\CustomList\obj\Debug\net6.0\CustomList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xasay Musayev\Desktop\CustomList\CustomList\obj\Debug\net6.0\CustomList.AssemblyInfoInputs.cache
+C:\Users\Xasay Musayev\Desktop\CustomList\CustomList\obj\Debug\net6.0\CustomList.AssemblyInfo.cs
+C:\Users\Xasay Musayev\Desktop\CustomList\CustomList\obj\Debug\net6.0\CustomList.csproj.CoreCompileInputs.cache
