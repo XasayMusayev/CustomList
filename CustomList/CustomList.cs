@@ -9,29 +9,35 @@ namespace CustomList
     public class CustomList<T>
     {
         
-        private T[] array;
+      private T[] arr={};
+
         public CustomList()
         {
-            array = new T[0];
+            arr=new T[0];
         }
 
-        public void Add(T nese)
+        public void Add(T item)
         {
-            Array.Resize(ref array, array.Length+1);
-            array[array.Length-1] = nese;   
+            Array.Resize(ref arr, arr.Length+1);
+            arr[arr.Length-1]=item; 
         }
 
 
-        public T Find(Predicate<T> func)
+        public T Find(Predicate<T> method)
         {
-            foreach (T item in array)
+            foreach (T item in arr)
             {
-                if (func(item))
+                if (method(item))
                 {
                     return item;
                 }
+                break;
             }
-            return null;
+
+            
+            return default;
+             
+            
         }
         
 

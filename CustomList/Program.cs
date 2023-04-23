@@ -2,18 +2,11 @@
 
 using CustomList;
 
-CustomList<string> customList = new CustomList<string>();
+CustomList<int> customList = new CustomList<int>();
+
+customList.Add(1);
 
 
-
-customList.Add("xasay");
-customList.Add("musa");
-
-foreach (var item in customList)
-{
-    Console.WriteLine(item);
-}
-
-customList.Find(x => x == "xasay");
+Console.WriteLine(customList.Find(x=>x==1));
 
 
